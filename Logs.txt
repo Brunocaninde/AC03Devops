@@ -1,0 +1,37 @@
+2020-10-17T10:43:00.203806+00:00 app[api]: Release v1 created by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:00.203806+00:00 app[api]: Initial release by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:00.420258+00:00 app[api]: Enable Logplex by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:00.420258+00:00 app[api]: Release v2 created by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:25.000000+00:00 app[api]: Build started by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:50.637626+00:00 app[api]: Deploy 5d2564e6 by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:50.637626+00:00 app[api]: Release v3 created by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:50.655876+00:00 app[api]: Scaled to web@1:Free by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:43:54.632607+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-17T10:43:57.681787+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-17T10:43:57.681827+00:00 app[web.1]: * Environment: production
+2020-10-17T10:43:57.681831+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T10:43:57.681856+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T10:43:57.681887+00:00 app[web.1]: * Debug mode: off
+2020-10-17T10:43:57.691139+00:00 app[web.1]: * Running on http://0.0.0.0:24270/ (Press CTRL+C to quit)
+2020-10-17T10:43:58.204508+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T10:43:59.000000+00:00 app[api]: Build succeeded
+2020-10-17T10:44:30.061721+00:00 app[web.1]: 10.11.198.97 - - [17/Oct/2020 10:44:30] "GET / HTTP/1.1" 200 -
+2020-10-17T10:44:30.065003+00:00 heroku[router]: at=info method=GET path="/" host=ac03dev.herokuapp.com request_id=0429249b-f88e-4134-ac41-2d1bf47be932 fwd="201.13.168.214" dyno=web.1 connect=1ms service=4ms status=200 bytes=186 protocol=https
+2020-10-17T10:47:12.000000+00:00 app[api]: Build started by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:47:34.830512+00:00 app[api]: Release v4 created by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:47:34.830512+00:00 app[api]: Deploy 76c46070 by user bruno.caninde@aluno.faculdadeimpacta.com.br
+2020-10-17T10:47:35.029591+00:00 heroku[web.1]: Restarting
+2020-10-17T10:47:35.032882+00:00 heroku[web.1]: State changed from up to starting
+2020-10-17T10:47:36.502857+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-17T10:47:36.585143+00:00 heroku[web.1]: Process exited with status 143
+2020-10-17T10:47:37.928815+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T10:47:40.941960+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-17T10:47:40.942110+00:00 app[web.1]: * Environment: production
+2020-10-17T10:47:40.942111+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T10:47:40.942111+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T10:47:40.942112+00:00 app[web.1]: * Debug mode: off
+2020-10-17T10:47:40.964151+00:00 app[web.1]: * Running on http://0.0.0.0:49939/ (Press CTRL+C to quit)
+2020-10-17T10:47:42.089044+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T10:47:43.000000+00:00 app[api]: Build succeeded
+2020-10-17T10:50:38.417204+00:00 app[web.1]: 10.63.251.11 - - [17/Oct/2020 10:50:38] "GET / HTTP/1.1" 200 -
+2020-10-17T10:50:38.419076+00:00 heroku[router]: at=info method=GET path="/" host=ac03dev.herokuapp.com request_id=4dd5e5f9-4ccb-44a4-b8ae-8991250114b8 fwd="201.13.168.214" dyno=web.1 connect=0ms service=5ms status=200 bytes=826 protocol=https
